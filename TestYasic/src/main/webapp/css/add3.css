@@ -1,0 +1,17 @@
+@charset "UTF-8";
+td:nth-child(odd) {
+	text-align: center;
+	background-color: #8BBDFF;
+}
+
+td:nth-child(even) {
+	background-color: #ffffff;
+}
+
+#last {
+	background-color: #ffffff;
+}
+
+td {
+	padding-left: 5px;
+}

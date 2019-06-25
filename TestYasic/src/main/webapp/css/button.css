@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.button {
+
+    width:100px;
+
+    background-color: #56c2e1;
+
+    border: none;
+
+    color:#fff;
+
+    padding: 15px 0;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 15px;
+
+    margin: 4px;
+
+    cursor: pointer;
+
+    border-radius:10px;
+
+}
+
+.button:hover {
+
+    background-color: blue;
+
+}

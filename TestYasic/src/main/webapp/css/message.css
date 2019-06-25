@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+	background-color: #C4DEFF;
+}
+
+div {
+	margin: auto;
+}
+
+textarea {
+	resize: none;
+}
+
+a {
+	text-decoration: none;
+}

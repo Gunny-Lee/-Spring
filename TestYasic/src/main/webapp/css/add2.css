@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+/*******************
+SELECTION STYLING
+*******************/
+
+::selection {
+   color: #fff;
+   background: #f676b2; /* Safari */
+}
+::-moz-selection {
+   color: #fff;
+   background: #f676b2; /* Firefox */
+}
+
+/*******************
+BODY STYLING
+*******************/
+
+* {
+   margin: 0;
+   padding: 0;
+   border: none;
+   outline: none;
+}
+
+body {
+/*    background: url('http://www.demo.amitjakhu.com/login-form/images/bg.png'); */
+   background-color: #C4FDFF;
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight:300;
+   text-align: left;
+   text-decoration: none;
+   height: 500px;
+}
+
+#wrapper {
+   /* Center wrapper perfectly */
+   width: 300px;
+   height: 400px;
+   margin: 70px auto;
+}
+
+.gradient {
+   /* Center Positioning */
+   width: 600px;
+   height: 600px;
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   margin-left: -300px;
+   margin-top: -300px;
+   z-index: -2;
+   
+   /* Fallback */ 
+   background-image: url(http://www.demo.amitjakhu.com/login-form/images/gradient.png); 
+   background-repeat: no-repeat; 
+   
+   /* CSS3 Gradient */
+   background-image: -webkit-gradient(radial, 0% 0%, 0% 100%, from(rgba(213,246,255,1)), to(rgba(213,246,255,0)));
+   background-image: -webkit-radial-gradient(50% 50%, 40% 40%, rgba(213,246,255,1), rgba(213,246,255,0));
+   background-image: -moz-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
+   background-image: -ms-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
+   background-image: -o-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
+}
+
+
+

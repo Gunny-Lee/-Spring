@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.name {
+	font-size: 30px;
+}
+
+img{
+	width:40px;
+	height:30px;
+}
+
+#logo{
+	width:40px;
+	height:40px;
+}
+
+div {
+	background:linear-gradient(to top, #6798FD, white);
+}
+
+td{
+		border:1px solid white;
+
+}
+
+.btn{
+	width:40px;
+	height:40px;
+}
+
+
