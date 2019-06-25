@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+	#editinfo {
+	position: absolute;
+	
+	left: 220px;
+	top: 10px;
+	}
+
+	#logout {
+	position: absolute;
+	
+	left: 300px;
+	top: 10px;
+	}
+
+	.light{
+		position: absolute;
+		left: 350px;
+		top: 280px;
+	}
+
+</style>
+
+
+</head>
+<body>
+		
+	<div>
+		<span id="editinfo" ><a href="#"> 정보수정</a> </span> 
+		<img alt="~~" src="${pageContext.request.contextPath}/upload/${imgname}" width=380 height=275/> 
+		<span id="logout" ><a href="#"> 로그아웃</a> </span>
+	</div>
+	
+	
+	
+	<a class="name">이름</a>
+	<a class="hashtag">해시태크</a>
+	<a class="light"><img src="./img/mailcount.png" width=30 height=30></a>
+	<p class="message">상태메세지</p>
+</body>
+</html>
